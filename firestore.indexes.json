@@ -1,0 +1,62 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "notifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "recipientID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "recipientID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isRead",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "lesson_modules",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "classID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "topicCategory",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sub_lessons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "classID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "topicCategory",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
+

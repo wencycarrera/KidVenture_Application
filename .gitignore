@@ -1,0 +1,14 @@
+# Ignore all .md files in the root directory
+/*.md
+
+# Ignore nested admin-web repository (it has its own git repo)
+
+# Environment variables (ignore actual .env files, but allow .env.example templates)
+.env
+.env.local
+.env.*.local
+
+# Firebase Functions
+functions/lib/
+functions/node_modules/
+functions/.env
